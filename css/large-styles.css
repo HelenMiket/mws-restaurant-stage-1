@@ -1,0 +1,24 @@
+#restaurants-list li {
+    width: 270px;
+}
+
+#restaurant-img-cuisine {
+    flex: 50%;
+}
+
+#restaurant-address-hours {
+    flex: 50%;
+    min-width: 400px;
+}
+
+#restaurant-img {
+    width: 90%;
+}
+
+#restaurant-cuisine {
+    width: 90%;
+}
+
+#reviews-list {
+    padding: 0 20px;
+}

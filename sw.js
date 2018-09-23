@@ -1,17 +1,28 @@
 const runtimeCache = 'restaurant-runtime-cache';
-const staticCache = 'restaurant-static-cache-v2';
+const staticCache = 'restaurant-static-cache-v5';
 
 const staticCachedResources = [
-  'index.html',
-  './', // Alias for index.html
-  'css/styles.css',
-  'css/large-styles.css',
-  'css/medium-styles.css',
-  'css/small-styles.css',
-  'js/dbhelper.js',
-  'js/main.js',
-  'js/restaurant_info.js',
-  'img/*'
+  '/index.html',
+  '/',
+  '/restaurant.html',
+  '/css/styles.css',
+  '/css/large-styles.css',
+  '/css/medium-styles.css',
+  '/css/small-styles.css',
+  '/js/dbhelper.js',
+  '/js/main.js',
+  '/js/restaurant_info.js',
+  '/data/restaurants.json',
+  '/img/1.jpg',
+  '/img/2.jpg',
+  '/img/3.jpg',
+  '/img/4.jpg',
+  '/img/5.jpg',
+  '/img/6.jpg',
+  '/img/7.jpg',
+  '/img/8.jpg',
+  '/img/9.jpg',
+  '/img/10.jpg'
 ];
 
 self.addEventListener('fetch', function (event) {

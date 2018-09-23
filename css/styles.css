@@ -111,13 +111,17 @@ nav h1 a {
   text-transform: uppercase;
 }
 
-#breadcrumb {
-  padding: 10px 0px 16px 10px;
-  list-style: none;
-  background-color: #eee;
-  font-size: 17px;
+#breadcrumb-nav {
+  padding: 5px 0px 5px; 
   margin: 0;
   width: 100%;
+  background-color: #eee;
+  font-size: 17px;
+  height: 30px;
+}
+
+#breadcrumb {
+  list-style: none;
 }
 
 /* Display list items side by side */
